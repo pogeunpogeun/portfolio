@@ -87,6 +87,14 @@
       </ul>
 
       <p>
+        또한 MusicMap은 사용자의 참여 데이터를 빠르고 정확하게 반영하기 위해
+        <strong>Redis 기반 실시간 반응 시스템</strong>을 도입했습니다. 트랙/플레이리스트의 좋아요와
+        조회수를 Redis에서 관리함으로써, 데이터베이스 부담 없이 즉각적인 응답성과 부드러운
+        인터랙션을 제공합니다. 이는 이후 태그 기반 추천 알고리즘을 고도화하기 위한 중요한 기반이
+        됩니다.
+      </p>
+
+      <p>
         실제 음악 작업자와 플레이리스트 큐레이터와의 대화를 통해 “음악을 듣는 방식은 각자의 세계관을
         반영한다"는 관점에서 출발했습니다. MusicMap은 그 세계관을 자연스럽게 드러내고 확장할 수 있는
         도구를 지향합니다.
@@ -96,8 +104,8 @@
       <img src="musicmap2.png" alt="MusicMap UI" />
 
       <p class="tech-stack">
-        Vue3 + Quasar · Kotlin + Spring Boot · JPA · PostgreSQL (태그 추천 및 연관도 기반 탐색
-        알고리즘 고도화 예정)
+        Vue3 + Quasar · Kotlin + Spring Boot · JPA · PostgreSQL · Redis (태그 추천 및 연관도 기반
+        탐색 알고리즘 고도화 예정)
       </p>
     </div>
 
